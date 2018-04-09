@@ -1,0 +1,23 @@
+{
+  "name": "david-wan",
+  "version": "1.0.0",
+  "description": "Personal website for David Wan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David47295/david-wan.git"
+  },
+  "author": "David Wan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David47295/david-wan/issues"
+  },
+  "homepage": "https://github.com/David47295/david-wan#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  }
+}
