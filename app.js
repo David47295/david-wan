@@ -7,7 +7,7 @@ app.use(express.static('static'));
 const http = require('http');
 const PORT = 3000;
 
-http.createServer(app).listen(PORT, function (err) {
+http.createServer(app).listen(process.env.PORT || PORT, function (err) {
     if (err) console.log(err);
-    else console.log("HTTP server on port %d", PORT);
+    else console.log("HTTP server on port %d", process.env.PORT || PORT);
 });
