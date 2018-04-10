@@ -1,0 +1,19 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+    color : black;
+  padding: 10px;
+  margin: 5px;
+}
+
+#navbar .navbar-brand {
+  padding-left: 5px;
+}
+
+.navbar-right {
+  display : flex;
+}
+
+.navbar-right .section {
+  padding: 6px;
+}
