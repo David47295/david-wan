@@ -7,7 +7,10 @@ body, html {
   justify-content: space-between;
   color : black;
   padding: 10px;
-  margin: 5px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 
 #navbar .navbar-brand {
@@ -20,6 +23,7 @@ body, html {
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(to bottom right,  rgba(50, 50, 50, 1), rgba(220, 66, 37, 0.7)), url("../media/banner-bg.jpg");
+  color: rgb(244, 244, 244);
 }
 
 .banner-text {
@@ -32,8 +36,23 @@ body, html {
 }
 
 .banner-text h1 {
+  font-family: 'Tajawal', sans-serif;
   font-size: 90px;
-  color: rgb(214, 214, 214);
+  font-weight: bold;
+
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me .image {
+  background-image: url("../media/aboutme.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
 }
 
 .navbar-right {
