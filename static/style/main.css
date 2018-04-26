@@ -44,7 +44,6 @@ body, html {
 
 .about-me {
   display: flex;
-  justify-content: space-around;
 }
 
 .about-me .image {
@@ -72,22 +71,15 @@ body, html {
   margin: 20px;
 }
 
-.resume-entry .logo {
-  width: 100%;
+/* .resume-entry .logo {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   grid-column-start: 3;
-}
+} */
 
 .resume-entry #a8 {
   background-image: url('../media/A8.jpg');
-}
-
-.resume-entry .content {
-  display: grid;
-  grid-template-columns: 75% auto 20%;
-  grid-template-rows: 275px;
 }
 
 .resume-entry ul {
@@ -95,6 +87,17 @@ body, html {
 }
 
 @media screen and (max-width: 767px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .about-me .image {
+    height: 200px;
+    width: 100%;
+  }
+
   .banner-text {
     padding-left: 20%;
     padding-right: 20%;
@@ -110,5 +113,44 @@ body, html {
     /* font-weight: bold; */
   }
 
+  .resume-entry .content {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .resume-entry .content .logo {
+    width: 70%;
+    height: 225px;
+    margin: auto;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+}
+
+/*Desktop styling*/
+@media screen and (min-width: 768px) {
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .resume-entry .content {
+    display: grid;
+    grid-template-columns: 75% auto 20%;
+    grid-template-rows: 275px;
+  }
+
+  .resume-entry .content .logo {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-column-start: 3;
+  }
+
+  #contact .contact-header {
+    text-align: center;
+  }
 }
