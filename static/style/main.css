@@ -62,3 +62,22 @@ body, html {
 .navbar-right .section {
   padding: 6px;
 }
+
+@media screen and (max-width: 767px) {
+  .banner-text {
+    padding-left: 20%;
+    padding-right: 20%;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-text h1 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+
+}
