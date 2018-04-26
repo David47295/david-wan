@@ -36,9 +36,9 @@ body, html {
 }
 
 .banner-text h1 {
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 90px;
-  font-weight: bold;
+  font-weight: lighter;
 
 }
 
@@ -63,6 +63,37 @@ body, html {
   padding: 6px;
 }
 
+#resume {
+  margin: 20px;
+  padding: 20px;
+}
+
+.resume-entry {
+  margin: 20px;
+}
+
+.resume-entry .logo {
+  width: 100%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  grid-column-start: 3;
+}
+
+.resume-entry #a8 {
+  background-image: url('../media/A8.jpg');
+}
+
+.resume-entry .content {
+  display: grid;
+  grid-template-columns: 75% auto 20%;
+  grid-template-rows: 275px;
+}
+
+.resume-entry ul {
+  grid-column-start: 1;
+}
+
 @media screen and (max-width: 767px) {
   .banner-text {
     padding-left: 20%;
@@ -74,9 +105,9 @@ body, html {
   }
 
   .banner-text h1 {
-    font-family: 'Tajawal', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 70px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
 
