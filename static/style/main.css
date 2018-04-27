@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 
-#navbar {
+/* #navbar {
   display: flex;
   justify-content: space-between;
   color : black;
@@ -10,8 +10,8 @@ body, html {
   position: absolute;
   right: 0;
   left: 0;
-  z-index: 1;
-}
+  z-index: 1024;
+} */
 
 #navbar .navbar-brand {
   padding-left: 5px;
@@ -71,19 +71,47 @@ body, html {
   margin: 20px;
 }
 
-/* .resume-entry .logo {
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  grid-column-start: 3;
-} */
-
 .resume-entry #a8 {
   background-image: url('../media/A8.jpg');
 }
 
 .resume-entry ul {
   grid-column-start: 1;
+}
+
+.social-media .links #linked-in .icon {
+  background-image: url("../media/linkedin-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.social-media .links #github .icon {
+  background-image: url("../media/github-sign.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.social-media p {
+  font-size: 30px
+}
+
+.contact-header {
+  margin-bottom: 20px;
+}
+
+#contact .contact-header {
+  text-align: center;
+}
+
+.social-media .links {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -127,6 +155,15 @@ body, html {
     background-repeat: no-repeat;
   }
 
+  .social-media .links .icon {
+    margin: 10px;
+  }
+
+  #contact hr {
+    width: 30%;
+  }
+
+
 }
 
 /*Desktop styling*/
@@ -150,7 +187,15 @@ body, html {
     grid-column-start: 3;
   }
 
-  #contact .contact-header {
-    text-align: center;
+  #contact p {
+    margin: 0%;
+  }
+
+  #contact hr {
+    width: 50%;
+  }
+
+  .social-media .links .icon {
+    margin: 10px;
   }
 }
