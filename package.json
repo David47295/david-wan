@@ -1,25 +1,22 @@
 {
   "name": "david-wan",
   "version": "1.0.0",
-  "description": "Personal website for David Wan",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/David47295/david-wan.git"
   },
-  "author": "David Wan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/David47295/david-wan/issues"
   },
   "homepage": "https://github.com/David47295/david-wan#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "jquery": "^3.3.1",
-    "nodemon": "^1.17.3"
+    "react": "^16.6.0"
   }
 }
