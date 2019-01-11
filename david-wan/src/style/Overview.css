@@ -1,6 +1,14 @@
 .overview {
   display: grid;
-  grid-template-columns: 10% 25% 10% 25% auto;
+  grid-template-columns: auto 25% 25% 25% auto;
+}
+
+.overview p {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  text-align: center;
+  font-size: 48px;
 }
 
 .overview .overview-ue4 {
@@ -8,8 +16,33 @@
   grid-column-end: 3;
 }
 
-.overview-ue4-image {
+.overview .overview-webdev {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.overview .overview-it {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.overview h2 {
+  text-align: center;
+}
+
+#ue4 {
   background-image: url('../media/Unreal_Engine_Black.png');
+}
+
+#webdev {
+  background-image: url('../media/cloud.png');
+}
+
+#it {
+  background-image: url('../media/database.png');
+}
+
+.overview .overview-image {
   background-position: center;
   background-size: contain;
   width: 256px;
