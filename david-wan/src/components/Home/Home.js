@@ -22,6 +22,7 @@ class Home extends Component {
             <div className="logo"></div>
           </div>
         </div>
+        <AboutMe/>
         <Skills/>
       </div>
     )

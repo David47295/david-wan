@@ -4,8 +4,8 @@ class Works extends Component {
   render() {
     return(
       <div className="works">
-        <h1>These are my games!</h1>
-        
+        <h1>These are my works!</h1>
+
       </div>
     )
   }

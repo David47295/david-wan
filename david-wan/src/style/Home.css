@@ -1,3 +1,13 @@
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.home h1 {
+
+}
+
 .summary-container {
   display:grid;
   grid-template-rows: 40px 20% 40px;

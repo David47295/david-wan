@@ -7,8 +7,8 @@ import '../../../style/Skills.css';
 class Skills extends Component {
   render() {
     return(
-      <div className="overview">
-        <p>Skills</p>
+      <div className="skills">
+        <h2 id="skills-hdr">Skills</h2>
         <SkillsElemUE4/>
         <SkillsElemWebDev/>
         <SkillsElemIT/>
