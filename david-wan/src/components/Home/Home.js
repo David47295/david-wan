@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import AboutMe from './AboutMe';
-import Overview from './Overview/Overview';
+import Skills from './Skills/Skills';
 import '../../style/Home.css';
 
 
@@ -22,7 +22,7 @@ class Home extends Component {
             <div className="logo"></div>
           </div>
         </div>
-        <Overview/>
+        <Skills/>
       </div>
     )
   }

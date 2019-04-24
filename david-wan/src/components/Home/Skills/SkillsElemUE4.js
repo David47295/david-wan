@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import '../../../style/Overview.css'
+import '../../../style/Skills.css'
 
-class OverviewElemUE4 extends Component {
+class SkillsElemUE4 extends Component {
   render() {
     return(
       <div className="overview-ue4">
-        <h2>Video Game Developer <br/> (Unreal Engine 4)</h2>
+        <h2>Video Game Development <br/> (Unreal Engine 4)</h2>
         <div id="ue4" className="overview-image"></div>
       </div>
     )
   }
 }
 
-export default OverviewElemUE4;
+export default SkillsElemUE4;

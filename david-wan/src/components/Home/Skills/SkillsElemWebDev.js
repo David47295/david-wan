@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../../../style/Overview.css'
+import '../../../style/Skills.css'
 
-class OverviewElemWebDev extends Component {
+class SkillsElemWebDev extends Component {
   render() {
     return(
       <div className="overview-webdev">
@@ -12,4 +12,4 @@ class OverviewElemWebDev extends Component {
   }
 }
 
-export default OverviewElemWebDev;
+export default SkillsElemWebDev;

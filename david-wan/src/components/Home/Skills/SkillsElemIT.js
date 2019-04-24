@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../../../style/Overview.css'
+import '../../../style/Skills.css'
 
-class OverviewElemIT extends Component {
+class SkillsElemIT extends Component {
   render() {
     return(
       <div className="overview-it">
@@ -12,4 +12,4 @@ class OverviewElemIT extends Component {
   }
 }
 
-export default OverviewElemIT;
+export default SkillsElemIT;
