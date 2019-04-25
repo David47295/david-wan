@@ -1,6 +1,7 @@
 .navbar, .navbar-fixed {
   display: flex;
   flex-direction: row;
+  background-color: #606060;
 
 }
 
@@ -11,9 +12,25 @@
   padding: 0;
 }
 
+.navbar li,
+.navbar-fixed li {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar li:hover,
+.navbar-fixed li:hover {
+  background: #333333;
+}
+
+.navbar li, .navbar-fixed li {
+  transition: all 0.25s ease-in;
+}
+
 .navbar-fixed {
   position: fixed;
-  width: 500px;
+  width: 100%;
   top: 0;
 }
 

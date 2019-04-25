@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink} from "react-router-dom";
+import NavBarButton from './NavBarButton';
 import '../style/NavBar.css';
 
 class NavBar extends Component {
@@ -29,8 +29,8 @@ class NavBar extends Component {
     return(
       <nav className={this.state.topOfPg ? "navbar" : "navbar-fixed"}>
         <ul>
-          <li className="nav_elmnt"><NavLink to="/">Home</NavLink></li>
-          <li className="nav_elmnt"><NavLink to="/works">Works</NavLink></li>
+          <NavBarButton to="/" name="Home"></NavBarButton>
+          <NavBarButton to="/works" name="Works"></NavBarButton>
         </ul>
       </nav>
     );
