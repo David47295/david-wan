@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import NavBar from "../components/NavBar";
-import Home from "../components/Home/Home"
-import Works from "../components/Works"
+import Home from "./Home"
+import Works from "./Works"
 import {Route,HashRouter} from "react-router-dom";
 
 class Homepage extends Component {

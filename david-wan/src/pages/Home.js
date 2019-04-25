@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import AboutMe from './AboutMe';
-import Skills from './Skills/Skills';
-import '../../style/Home.css';
+import AboutMe from '../components/Home/AboutMe';
+import Skills from '../components/Home/Skills/Skills';
+import '../style/Home.css';
 
 
 class Home extends Component {
