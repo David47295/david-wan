@@ -1,6 +1,8 @@
 .skills {
   display: grid;
   grid-template-columns: auto 25% 25% 25% auto;
+  border: solid 16px grey;
+  border-top: 0px;
 }
 
 .skills h2 {

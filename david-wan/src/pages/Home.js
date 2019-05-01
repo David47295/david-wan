@@ -9,9 +9,13 @@ class Home extends Component {
   render() {
     return(
       <div className="home">
-        <Banner/>
-        <AboutMe/>
-        <Skills/>
+        <div className="banner">
+          <Banner/>
+        </div>
+        <div className="content">
+          <AboutMe/>
+          <Skills/>
+        </div>
       </div>
     )
   }

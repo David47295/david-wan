@@ -1,8 +1,9 @@
 .aboutme {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  border: solid 16px grey;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-size: 20px;
-  background-color: #0080d1;
+  background-color: white;
 }
 
 .aboutme .aboutme-hdr {
