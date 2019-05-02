@@ -1,0 +1,11 @@
+.works-content {
+  display: grid;
+  gap: 10% 10%;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  height: 200px;
+}
+
+.works-content > div {
+  border: 1px solid green;
+  background-color: lime;
+}
