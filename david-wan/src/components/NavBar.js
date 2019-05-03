@@ -30,7 +30,7 @@ class NavBar extends Component {
       <nav className={this.state.topOfPg ? "navbar" : "navbar-fixed"}>
         <ul>
           <NavBarButton to="/" name="Home"></NavBarButton>
-          <NavBarButton to="/works" name="Works"></NavBarButton>
+          <NavBarButton to="/projects" name="Works"></NavBarButton>
         </ul>
       </nav>
     );
