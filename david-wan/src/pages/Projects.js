@@ -17,7 +17,7 @@ class Works extends Component {
     let new_state = {
       projects : Object.keys(projectdata).map((p) => {
                     let project = projectdata[p];
-                    return (<Project projectname={project.name} description={project.description}/>);
+                    return (<Project id={project.id} key={project.key} projectname={project.name} description={project.description}/>);
                   })
     };
     this.setState(new_state);
