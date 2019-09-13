@@ -1,23 +1,38 @@
 .banner {
   display:flex;
   flex-direction: row;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  height: 100vh;
+  background-image: url('../media/banner-bg.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .banner .banner-summary {
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  padding-left: 20%;
+  justify-content: center;
+
+}
+
+.blur-backdrop {
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner .banner-summary .summary {
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .banner .banner-summary .summary h1 {
-  font-size: 36px;
+  font-size: 42px;
 }
 
 .banner .banner-summary .summary p {
-  font-size: 20px;
+  font-size: 38px;
   font-family: 'Consolas', monospace;
   display: inline;
 }
