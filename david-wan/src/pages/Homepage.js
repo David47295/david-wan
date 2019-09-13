@@ -9,11 +9,8 @@ class Homepage extends Component {
     return(
       <HashRouter>
         <div>
-          <NavBar/>
-
           <div className="content">
             <Route exact path="/" component={Home}/>
-            <Route exact path="/projects" component={Projects}/>
           </div>
         </div>
       </HashRouter>
