@@ -1,0 +1,19 @@
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#content-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#navbar {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+}
+
+#navbar a {
+    padding: 5px;
+}
