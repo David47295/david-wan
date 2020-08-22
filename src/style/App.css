@@ -1,11 +1,11 @@
 html {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans',ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
 }
 
-#content-container {
+/* #content-container {
     padding-left: 4rem;
     padding-right: 4rem;
-}
+} */
 
 #navbar {
     font-family: 'IBM Plex Mono', monospace;
