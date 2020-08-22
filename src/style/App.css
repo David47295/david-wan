@@ -2,10 +2,13 @@ html {
     font-family: 'IBM Plex Sans',ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
 }
 
-/* #content-container {
-    padding-left: 4rem;
-    padding-right: 4rem;
-} */
+body {
+    margin: 0;
+}
+
+#content-container {
+    margin: 0;
+}
 
 #navbar {
     font-family: 'IBM Plex Mono', monospace;
