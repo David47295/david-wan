@@ -1,11 +1,14 @@
-import { React } from 'react';
+import React from 'react';
 
-class Skills extends React.Component {
-    render() {
-        return (
-            <div id="skills">
-                
+export default function Skills() {
+    return (
+        <div id="skills">
+            <h1>Skills</h1>
+            <div id="skills-container">
+                <div>
+                    
+                </div>
             </div>
-        )
-    }
+        </div>
+    )
 }
