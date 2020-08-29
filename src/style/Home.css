@@ -1,8 +1,8 @@
 #home {
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,52,52,1) 45%, rgba(0,212,255,0) 100%), url("../media/bandwidth-close-up-computer-connection-1148820.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,52,52,1) 45%, rgba(0,212,255,0) 100%), url("../media/bandwidth-close-up-computer-connection-1148820.jpg"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
     width: 100%;
     height: 100vh;
 }
@@ -15,10 +15,13 @@
     left: 10%;
 }
 
-.home-banner .banner-content h1 {
+.title {
     font-size: 4rem;
     font-weight: 300;
-    margin: 0;
+    margin-right: 70%;
+    padding-top: 4rem;
+    border-bottom: black solid 2px;
+    text-align: end;
 }
 
 .home-banner .banner-content p {

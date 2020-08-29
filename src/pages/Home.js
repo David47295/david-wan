@@ -6,6 +6,7 @@ import '../style/Home.css'
 export default function Home() {
     return (
         <div id="home">
+            <div className="title">DAVID WAN</div>
             <div className="banner-content">
                 {/* <h1>David Wan</h1>
                 <hr />
