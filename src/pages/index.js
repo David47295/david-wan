@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import Home from './Home';
 import AboutMe from './AboutMe'
+import Credits from './Credits'
 
 import '../style/App.css'
 
@@ -22,6 +23,9 @@ export default function App() {
         <Switch>
           <Route path="/aboutme">
             <AboutMe />
+          </Route>
+          <Route path="/credits">
+            <Credits />
           </Route>
           <Route path="/">
             <Home />

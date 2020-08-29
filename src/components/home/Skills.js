@@ -12,10 +12,10 @@ export default function Skills() {
                     skillId="ue4"
                     captionText="Game Development"
                 />
-                <SkillCell
+                {/* <SkillCell
                     skillId="web-dev"
                     captionText="Web Development"
-                />
+                /> */}
             </div>
         </div>
     )
