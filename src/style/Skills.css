@@ -1,17 +1,25 @@
-.skills-container {
+#skills {
+
+}
+
+#skills-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skill-icon {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
 }
 
 #ue4 {
     background-image: url('../media/UE_Logo_Icon_Black.png');
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    align-content: center;
 }
 
 #web-dev {
-    
+    background-image: url('../media/code.png');
 }
 
 .skills-caption {
