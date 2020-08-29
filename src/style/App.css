@@ -15,6 +15,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     display: flex;
+    position: fixed;
 }
 
 #navbar a {
