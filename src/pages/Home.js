@@ -6,16 +6,11 @@ import '../style/Home.css'
 export default function Home() {
     return (
         <div id="home">
-            <div className="title">DAVID WAN</div>
-            <div className="banner-content">
-                {/* <h1>David Wan</h1>
-                <hr />
-                <div className="self-descrip">
-                    <p>Software Development</p>
-                    <p>Computer Science Specialist</p>
-                    <p>Information Systems</p>
-                </div> */}
-
+            <div className="content-container">
+                <div className="title">David Wan</div>
+                <p>Computer Science Specialist</p>
+                <p>Full Stack Developer</p>
+                <p>Hobbyist Game Developer</p>
             </div>
             {/* <Skills /> */}
         </div>
