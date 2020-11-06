@@ -8,9 +8,12 @@ export default function Home() {
         <div id="home">
             <div className="content-container">
                 <div className="title">David Wan</div>
-                <p>Computer Science Specialist</p>
-                <p>Full Stack Developer</p>
-                <p>Hobbyist Game Developer</p>
+                <div class="description">
+                    <p>Computer Science Specialist</p>
+                    <p>Full Stack Developer</p>
+                    <p>Hobbyist Game Developer</p>
+                </div>
+                <button id="learn-more">Learn More</button>
             </div>
             {/* <Skills /> */}
         </div>
