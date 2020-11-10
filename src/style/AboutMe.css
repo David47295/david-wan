@@ -10,5 +10,12 @@
 }
 
 #about-me-content {
+    padding-left: 3em;
     margin-right: 55%;
+    
+}
+
+#about-me-content .about-me-section {
+    font-size: 24px;
+    padding-bottom: 3rem;
 }

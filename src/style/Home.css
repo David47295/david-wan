@@ -19,17 +19,7 @@
     font-size: 24px;
 }
 
-.content-container #learn-more {
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    font: inherit;
-    font-size: 28px;
-    font-weight: bold;
-    padding: 1rem 2rem 1rem 2rem;
-    background-color: transparent;
-    border: 1px solid black;
-}
+
 
 .home-banner .banner-content {
     position: relative;
@@ -48,4 +38,24 @@
     font-size: 1.5rem;
     margin: 0;
 }
+
+#learn-more {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font: inherit;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: transparent;
+    border: 1px solid black;
+    /* animation-name: learn-more-unhover; 
+    animation-duration: .5s; */
+}
+
+#learn-more:hover {
+    color: white;
+    background-color: black;
+}
+
 
