@@ -1,5 +1,6 @@
 import React from 'react';
-import '../style/AboutMe.css'
+import '../style/AboutMe.css';
+import {Link} from 'react-router-dom';
 
 export default function AboutMe() {
     return (
@@ -19,7 +20,9 @@ export default function AboutMe() {
                     On the side, I like to play video games as well as develop them in Unreal Engine 4! I also enjoy drawing digital art and baking!
                 </div>
             </div>
-            <button>See Work experience</button>
+            <Link to="/resume">
+                <button>See Work experience</button>
+            </Link>
         </div>
     )
 }

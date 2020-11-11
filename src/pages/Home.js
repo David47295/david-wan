@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-// import Skills from '../components/home/Skills'
 
 import '../style/Home.css'
 
