@@ -1,3 +1,17 @@
 #resume {
-    
+    padding: 20px;
+}
+
+.main-header {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.work-experience .role {
+    font-size: 28px;
+}
+
+.work-experience .location {
+    font-size: 18px;
+    margin-top: 0px;
 }
