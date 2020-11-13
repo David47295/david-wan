@@ -13,8 +13,8 @@ class Home extends React.Component {
                         <p>Full Stack Developer | 4th year Computer Science Specialist @ the University of Toronto</p>
                     </div>
                     <Link to="/aboutme">
-                        <button id="learn-more">Learn More</button>
-                    </Link> 
+                        <button id="learn-more" className="button">Learn More</button>
+                    </Link>
                 </div>
             </div>
         )

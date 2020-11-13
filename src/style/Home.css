@@ -39,7 +39,7 @@
     margin: 0;
 }
 
-#learn-more {
+.button {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -49,13 +49,18 @@
     padding: 1rem 2rem 1rem 2rem;
     background-color: transparent;
     border: 1px solid black;
-    /* animation-name: learn-more-unhover; 
-    animation-duration: .5s; */
+    transition-property: background-color;
+    transition-duration: .3s;
 }
 
-#learn-more:hover {
+.button:hover {
     color: white;
     background-color: black;
 }
 
+.button:hover:active {
+    color: white;
+    background-color: grey;
+    transition-duration: 0s;
+}
 

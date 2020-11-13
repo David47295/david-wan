@@ -1,0 +1,14 @@
+{
+    "work_experience": [
+        {
+            "role": "Full Stack Developer (Cloud)",
+            "location": "IBM Canada – Markham, ON (May 2019 – August 2020)",
+            "tasks" : [
+                "Helped migrate older Operations Dashboard over to newer, micro-services and Cognos based architecture",
+                "Developed new dashboard displaying breakdowns of various support KPIs that are tracked by numerous product leaders, using Vue JS, Node JS, and PostgreSQL",
+                "Rapidly learned and utilized Cognos Analytics to develop several required dashboards within the team’s tight schedule",
+                "Wrote styling guide for DashboardNEXT to ensure harmonized design across all tabs within the dashboard"
+            ]
+        }
+    ]
+}
