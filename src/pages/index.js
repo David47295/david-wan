@@ -18,6 +18,7 @@ export default function App() {
       <nav id="navbar">
         <Link to="/">Home</Link>
         <Link to="/aboutme">About Me</Link>
+        <Link to="/resume">Work Experience</Link>
       </nav>
 
       <div id='content-container'>

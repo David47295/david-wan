@@ -12,8 +12,10 @@ class Resume extends React.Component {
         })
         return (
             <div id="resume">
-                <b class="main-header">Work Experience</b>
-                {work_exp}
+                <b className="main-header">Work Experience</b>
+                <div className="resume-content">
+                    {work_exp}
+                </div>
             </div>
         )
     }

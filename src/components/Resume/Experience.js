@@ -7,9 +7,9 @@ export default function Experience(props) {
         )
     })
     return (
-        <div class="work-experience">
-            <b class="role">{props.role}</b>
-            <p class="location">{props.location}</p>
+        <div className="work-experience">
+            <b className="role">{props.role}</b>
+            <p className="location">{props.location}</p>
             <ul>
                 {tasks}
             </ul>

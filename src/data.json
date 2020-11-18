@@ -9,6 +9,16 @@
                 "Rapidly learned and utilized Cognos Analytics to develop several required dashboards within the team’s tight schedule",
                 "Wrote styling guide for DashboardNEXT to ensure harmonized design across all tabs within the dashboard"
             ]
+        },
+        {
+            "role": "Frontend/Backend Engineer (Area 631)",
+            "location": "IBM Canada – Markham, ON (September 2019 – January 2020)",
+            "tasks" : [
+                "Joined entirely new team of 6 co-workers to quickly design and develop prototype for upcoming IBM product under tight 3-month deadline",
+                "Implemented code generation and pushing services for GitHub and Gitlab using their respective APIs and Node JS",
+                "Designed frontend UI using React JS such that design language is consistent with IBM Cloud",
+                "Frequently met and communicated with IBM executives and prospective clients to garner constructive feedback and suggestions"
+            ]
         }
     ]
 }

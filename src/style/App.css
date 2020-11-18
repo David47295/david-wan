@@ -19,5 +19,15 @@ body {
 }
 
 #navbar a {
-    padding: 5px;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+#navbar a:visited {
+    color: black;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
 }
