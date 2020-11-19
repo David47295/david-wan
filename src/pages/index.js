@@ -8,7 +8,8 @@ import {
 import Home from './Home';
 import AboutMe from './AboutMe'
 import Resume from './Resume';
-import Credits from './Credits'
+import Credits from './Credits';
+import Contact from './Contact';
 
 import '../style/App.css'
 
@@ -19,6 +20,7 @@ export default function App() {
         <Link to="/">Home</Link>
         <Link to="/aboutme">About Me</Link>
         <Link to="/resume">Work Experience</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
 
       <div id='content-container'>
@@ -28,6 +30,9 @@ export default function App() {
           </Route>
           <Route path="/resume">
             <Resume />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/credits">
             <Credits />

@@ -24,6 +24,10 @@ body {
 
 }
 
+#navbar a:link {
+    color: black;
+}
+
 #navbar a:visited {
     color: black;
 }

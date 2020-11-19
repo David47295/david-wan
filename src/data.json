@@ -20,5 +20,25 @@
                 "Frequently met and communicated with IBM executives and prospective clients to garner constructive feedback and suggestions"
             ]
         }
+    ],
+    "contact_info": [
+        {
+            "title": "LinkedIn",
+            "class": "linked-in",
+            "url": "https://www.linkedin.com/in/david-wan/",
+            "text": "https://www.linkedin.com/in/david-wan/"
+        },
+        {
+            "title": "GitHub",
+            "class": "github",
+            "url": "https://github.com/David47295",
+            "text": "https://github.com/David47295"
+        },
+        {
+            "title": "Email Me!",
+            "class": "email",
+            "url": "mailto:dave.wan47@gmail.com",
+            "text": "dave.wan47@gmail.com"
+        }
     ]
 }

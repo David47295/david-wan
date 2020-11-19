@@ -1,0 +1,39 @@
+#contact-me-header {
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.linked-in {
+    background-image: url('../media/LI-In-Bug.png');
+}
+
+.github {
+    background-image: url('../media/GitHub-Mark-120px-plus.png');
+}
+
+.email {
+    background-image: url('../media/email.png');
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.method .title {
+    font-size: 50px;
+}
