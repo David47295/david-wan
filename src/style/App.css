@@ -15,13 +15,23 @@ body {
     font-size: 30px;
     font-weight: 400;
     display: flex;
+    background-color: darkgrey;
     /* position: fixed; */
+}
+
+#navbar .home-btn {
+    width: 75px;
+    height: 75px;
+    background-image: url('../media/WebsiteLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #navbar a {
     text-decoration: none;
-    padding: 1rem 2rem 1rem 2rem;
-
+    padding: .5rem 2rem .5rem 2rem;
+    display: flex;
+    align-items: center;
 }
 
 #navbar a:link {
@@ -34,4 +44,10 @@ body {
 
 #navbar a:hover {
     text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+#navbar a:hover .home-btn {
+    filter: invert(1);
 }

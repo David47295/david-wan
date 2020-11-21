@@ -1,12 +1,23 @@
-#contact-me-header {
+#contact .contact-me-header {
     font-size: 4rem;
     font-weight: 300;
-    margin: 0;
+    margin: 0 0 1rem 0;
+    text-align: center;
 }
 
 .contact-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#contact .method .title {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+#contact .method .link {
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .icon {
@@ -32,8 +43,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.method .title {
-    font-size: 50px;
 }

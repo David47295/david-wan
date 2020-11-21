@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <nav id="navbar">
-        <Link to="/">Home</Link>
+        <Link to="/"><div className="home-btn" /></Link>
         <Link to="/aboutme">About Me</Link>
         <Link to="/resume">Work Experience</Link>
         <Link to="/contact">Contact</Link>
