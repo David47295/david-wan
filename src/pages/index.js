@@ -17,10 +17,10 @@ export default function App() {
   return (
     <Router>
       <nav id="navbar">
-        <Link to="/"><div className="home-btn" /></Link>
-        <Link to="/aboutme">About Me</Link>
-        <Link to="/resume">Work Experience</Link>
-        <Link to="/contact">Contact</Link>
+        <Link className="home-link" to="/"><div className="home-btn" /></Link>
+        <Link to="/aboutme"><span>About Me</span></Link>
+        <Link to="/resume"><span>Work Experience</span></Link>
+        <Link to="/contact"><span>Contact</span></Link>
       </nav>
 
       <div id='content-container'>

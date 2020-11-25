@@ -10,8 +10,11 @@
 .resume-content {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 10%;
-    padding-left: 3.5rem;
+    padding: 10% 0 7% 3.5rem
+}
+
+.contact-me {
+    margin-left: 3.5rem;
 }
 
 .work-experience {

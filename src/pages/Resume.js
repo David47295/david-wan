@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../style/Resume.css'
 import Experience from '../components/Resume/Experience';
 import data from '../data.json';
@@ -16,6 +17,9 @@ class Resume extends React.Component {
                 <div className="resume-content">
                     {work_exp}
                 </div>
+                <Link to="/contact">
+                    <button className="button contact-me">Contact Me!</button>
+                </Link>
             </div>
         )
     }

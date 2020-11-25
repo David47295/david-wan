@@ -6,6 +6,7 @@
 }
 
 .contact-info {
+    margin-top: 8%;
     display: flex;
     justify-content: space-evenly;
 }
