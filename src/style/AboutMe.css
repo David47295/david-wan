@@ -1,5 +1,4 @@
 #about-me {
-    
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -12,7 +11,8 @@
 #about-me-content {
     padding-left: 3em;
     margin-right: 55%;
-    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #about-me-content .about-me-section {

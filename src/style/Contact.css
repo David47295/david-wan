@@ -17,8 +17,28 @@
 }
 
 #contact .method .link {
+    position: relative;
     font-size: 20px;
     font-weight: 200;
+}
+
+#contact .method .link::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    transition: width .2s ease-in-out;
+}
+
+#contact .method .link:hover:before {
+    width: 100%;
+}
+
+#contact .method .link a {
+    color: black;
+    text-decoration: none;
 }
 
 .icon {
