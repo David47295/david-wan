@@ -10,7 +10,7 @@ class Home extends React.Component {
                 <div className="content-container">
                     <div className="title">David Wan</div>
                     <div className="description">
-                        <p>Full Stack Developer | 4th year Computer Science Specialist @ the University of Toronto</p>
+                        <p>Full Stack Developer | Computer Science Specialist Graduate @ the University of Toronto</p>
                     </div>
                     <Link to="/aboutme">
                         <button id="learn-more" className="button">Learn More</button>
