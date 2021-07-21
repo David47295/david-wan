@@ -9,6 +9,7 @@
     margin-top: 8%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #contact .method .title {
@@ -58,6 +59,10 @@
 
 .email {
     background-image: url('../media/email.png');
+}
+
+.itch {
+    background-image: url('../media/itchio-textless-black.svg');
 }
 
 .method {
